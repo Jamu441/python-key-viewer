@@ -9,6 +9,7 @@ with open("config.json", "r") as file:
 window = ttk.Window(title="Key Viewer", size=(settings["width"], settings["height"]), themename="cyborg")
 window.wm_attributes("-alpha", settings["alpha"], "-topmost", settings["always_on_top"])
 window.position_center()
+window.iconbitmap("icon.ico")
 
 dm.update_dark_mode(window=window)
 
