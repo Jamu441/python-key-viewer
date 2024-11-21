@@ -1,0 +1,13 @@
+{
+"alpha": 0.5,
+"font": "Consolas",
+"font_size": 18,
+"pad_y": 25,
+"width": 400,
+"height": 100,
+"always_on_top": 1,
+"max_char": 28,
+"seperator_char": "",
+"text_color": "#FFFFFF",
+"hotkey_seperator": "-"
+}
